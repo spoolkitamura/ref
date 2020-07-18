@@ -106,6 +106,9 @@ Window.loop do
         tamas.delete(tama)
       end
     end
+    if tama.centery < 0
+      tamas.delete(tama)
+    end
   end
   ###
 
